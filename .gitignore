@@ -1,0 +1,42 @@
+# Unity .gitignore
+
+# --- Unity generated files ---
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild*/
+[Ll]ogs/
+[Mm]emoryCaptures/
+[Cc]rashes?/
+[Cc]rashReports/
+
+# IDE / editor
+.vs/
+.idea/
+.vscode/
+*.csproj
+*.sln
+*.user
+*.pidb
+
+# Output binaries and packages
+*.apk
+*.aab
+*.app
+*.exe
+*.dll
+*.pdb
+*.unitypackage
+*.zip
+*.tar
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Do NOT ignore: project sources and configs ---
+!Assets/**
+!ProjectSettings/**
+!Packages/manifest.json
+!Packages/packages-lock.json
